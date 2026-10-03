@@ -34,7 +34,10 @@ From this repository's root:
 All ten original GUI controls are available: colorspace, border, rotation,
 rotation variance, brightness, paper tint, contrast, blur, noise, and resolution.
 Presets, selected pages, PNG/JPEG page encoding, reproducible seeds, and JSON
-results are also supported. See [full CLI usage](lookscanned/README.md).
+results are also supported. See the [complete option reference](lookscanned/references/options.md)
+for defaults, limits, increase/decrease behavior, and interactions. Read the
+[parameter and 314-page validation](lookscanned/references/validation.md) for measured
+evidence and long-document limits.
 
 The original PDF is preserved. Output contains rasterized pages at the original
 physical sizes, so editable text, links, and forms are not retained. This is a

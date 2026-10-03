@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Preserve the complete prebuilt skill byte-for-byte, including license texts.
+lookscanned/** -text
+lookscanned/bin/** binary
